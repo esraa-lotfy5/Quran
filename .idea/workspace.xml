@@ -1,5 +1,673 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60ced49f-35c7-4e27-8ab2-06ee5143692e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/fonts/uthmanic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/pngs/app_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/pngs/border.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/svgs/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/svgs/qibla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/svgs/quran.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/svgs/tasbih.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_data/quran.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_data/tafsir.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/100.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/101.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/102.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/103.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/104.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/105.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/106.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/108.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/109.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/115.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/117.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/119.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/121.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/122.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/123.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/124.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/125.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/126.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/127.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/129.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/130.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/132.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/133.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/134.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/135.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/136.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/137.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/138.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/139.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/140.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/141.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/142.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/143.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/144.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/145.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/146.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/147.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/148.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/149.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/151.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/152.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/153.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/154.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/155.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/156.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/157.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/158.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/159.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/160.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/161.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/162.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/163.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/164.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/165.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/166.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/167.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/168.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/169.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/170.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/171.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/172.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/173.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/174.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/175.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/176.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/177.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/178.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/179.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/180.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/181.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/182.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/183.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/184.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/185.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/186.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/187.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/188.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/189.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/190.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/191.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/193.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/194.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/195.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/196.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/197.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/198.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/199.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/201.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/202.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/203.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/204.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/205.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/206.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/207.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/208.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/209.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/210.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/211.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/212.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/213.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/214.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/215.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/216.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/217.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/218.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/219.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/220.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/221.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/222.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/223.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/224.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/225.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/227.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/228.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/229.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/230.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/231.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/232.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/233.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/234.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/235.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/236.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/237.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/238.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/239.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/241.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/242.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/243.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/244.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/245.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/246.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/247.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/248.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/249.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/250.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/251.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/252.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/253.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/254.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/255.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/257.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/258.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/259.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/260.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/261.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/262.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/263.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/264.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/265.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/266.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/267.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/268.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/269.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/270.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/271.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/272.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/273.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/274.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/275.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/276.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/277.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/278.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/279.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/280.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/281.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/282.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/283.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/284.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/285.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/286.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/287.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/288.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/289.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/290.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/291.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/292.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/293.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/294.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/295.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/296.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/297.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/298.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/299.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/301.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/302.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/303.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/304.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/305.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/306.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/307.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/308.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/309.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/310.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/311.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/312.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/313.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/314.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/315.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/316.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/317.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/318.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/319.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/321.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/322.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/323.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/324.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/325.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/326.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/327.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/328.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/329.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/330.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/331.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/332.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/333.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/334.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/335.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/336.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/337.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/338.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/339.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/340.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/341.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/342.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/343.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/344.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/345.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/346.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/347.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/348.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/349.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/350.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/351.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/352.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/353.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/354.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/355.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/356.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/357.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/358.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/359.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/360.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/361.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/362.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/363.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/364.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/365.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/366.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/367.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/368.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/369.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/370.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/371.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/372.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/373.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/374.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/375.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/376.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/377.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/378.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/379.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/380.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/381.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/382.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/383.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/384.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/385.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/386.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/387.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/388.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/389.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/390.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/391.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/392.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/393.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/394.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/395.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/396.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/397.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/398.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/399.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/400.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/401.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/402.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/403.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/405.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/406.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/407.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/408.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/409.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/410.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/411.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/412.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/413.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/414.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/415.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/416.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/417.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/418.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/419.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/420.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/421.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/422.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/423.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/424.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/425.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/426.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/427.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/428.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/429.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/430.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/431.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/432.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/433.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/434.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/435.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/436.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/437.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/438.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/439.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/440.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/441.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/442.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/443.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/444.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/445.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/446.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/447.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/448.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/449.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/450.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/451.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/452.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/453.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/454.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/455.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/456.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/457.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/458.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/459.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/460.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/461.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/462.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/463.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/464.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/465.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/466.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/467.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/468.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/469.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/470.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/471.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/472.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/473.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/474.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/475.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/476.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/477.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/478.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/479.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/480.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/481.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/482.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/483.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/484.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/485.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/486.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/487.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/488.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/489.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/490.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/491.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/492.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/493.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/494.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/495.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/496.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/497.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/498.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/499.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/500.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/501.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/502.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/503.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/504.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/505.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/506.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/507.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/508.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/509.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/510.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/511.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/513.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/514.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/515.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/516.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/517.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/518.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/519.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/520.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/521.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/522.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/523.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/524.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/525.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/526.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/527.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/528.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/529.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/530.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/531.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/532.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/533.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/534.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/535.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/536.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/537.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/538.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/539.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/540.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/541.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/542.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/543.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/544.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/545.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/546.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/547.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/548.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/549.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/550.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/551.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/552.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/553.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/554.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/555.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/556.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/557.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/558.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/559.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/560.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/561.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/562.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/563.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/564.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/565.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/566.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/567.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/568.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/569.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/57.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/570.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/571.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/572.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/573.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/574.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/575.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/576.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/577.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/578.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/579.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/580.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/581.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/582.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/583.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/584.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/585.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/586.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/587.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/588.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/589.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/590.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/591.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/592.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/593.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/594.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/595.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/596.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/597.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/598.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/599.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/60.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/600.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/601.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/602.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/603.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/604.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/61.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/62.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/63.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/65.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/66.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/67.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/68.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/69.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/70.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/71.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/72.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/73.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/74.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/75.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/76.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/77.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/78.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/79.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/80.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/81.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/82.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/83.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/84.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/85.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/86.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/87.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/88.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/89.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/90.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/91.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/92.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/93.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/94.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/95.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/96.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/97.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/98.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/quran_pages/99.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/translations/ar-SA.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/confige_app.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/common/presentation_layer/widgets/custom_app_bar.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/common/presentation_layer/widgets/custom_image.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/constants/app_globals.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/constants/app_images.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/enums/image_type_enum.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/routes/app_routes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/routes/route_names.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/theme/app_colors.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/theme/font_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/theme/text_style_manager.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/core/utils/localization_util.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/home/presentation_layer/screens/home_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/qibla/presentation_layer/screens/qibla_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/quran/data_layer/models/ayah_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/quran/data_layer/models/surah_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/quran/data_layer/models/word.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/quran/data_layer/repositories/quran_repository.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/quran/presentation_layer/bottom_sheets/tafsir_sheet.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/quran/presentation_layer/screens/page_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/quran/presentation_layer/screens/quran_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/quran/presentation_layer/widgets/ayah_highlight_layer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/splash_screen/presentation_layer/screens/splash_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/tabs/presentation_layer/screens/tabs_screen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/tabs/presentation_layer/view_model/app_tabs_view_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/tabs/presentation_layer/widgets/app_tab_item.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/features/tasbih/presentation_layer/screens/tasbih_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Debug.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/Flutter-Release.xcconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quran.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quran.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="main.dart" pinned="false" current-in-tab="true">
@@ -13,24 +681,81 @@
       </file>
     </leaf>
   </component>
-  <component name="ToolWindowManager">
-    <editor active="true" />
-    <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-    </layout>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="3AZOkMVWhboxx2X48THBxzvSukC" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-    </navigator>
+    <navigator currentView="ProjectPane" proportions="" version="1" />
     <panes>
       <pane id="ProjectPane">
         <option name="show-excluded-files" value="false" />
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="dart.analysis.tool.window.force.activate" value="true" />
-    <property name="show.migrate.to.gradle.popup" value="false" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flutter.main.dart.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "pages",
+    "io.flutter.project.isFirstOpen": "true",
+    "io.flutter.reload.alreadyRun": "true",
+    "last_opened_file_path": "/Users/esraalotfy/Documents/Personal work/quran/lib/features/tabs/presentation_layer/widgets",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/features/tabs/presentation_layer/widgets" />
+      <recent name="$PROJECT_DIR$/lib/features/tabs/presentation_layer" />
+      <recent name="$PROJECT_DIR$/lib/features/tasbih" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/lib/core/utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/pngs" />
+      <recent name="$PROJECT_DIR$/assets/images/svgs" />
+      <recent name="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxxhdpi" />
+      <recent name="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi" />
+      <recent name="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60ced49f-35c7-4e27-8ab2-06ee5143692e" name="Changes" comment="" />
+      <created>1772796767289</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772796767289</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
